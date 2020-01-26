@@ -1,0 +1,5 @@
+test_dna = "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"
+
+counter = test_dna.count("A")
+
+print (str(counter))
