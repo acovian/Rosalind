@@ -16,3 +16,9 @@ rna_codons = {
     'UGA': 'Stop',  'CGA': 'R',     'AGA': 'R',     'GGA': 'G',
     'UGG': 'W',     'CGG': 'R',     'AGG': 'R',     'GGG': 'G'
 }
+
+def translate(rna):
+    result = ''
+
+    for i in range(0, len(rna), 3):
+        
